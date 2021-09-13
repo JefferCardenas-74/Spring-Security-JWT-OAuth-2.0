@@ -14,7 +14,7 @@
 	<name>course-jwt</name>
 	<description>Security JWT Spring Boot OAuth 2.0</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
