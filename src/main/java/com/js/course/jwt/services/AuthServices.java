@@ -24,4 +24,8 @@ public class AuthServices {
         
         return jwt;
     }
+    
+    public void algo(){
+        System.out.println("algo apra imprimir");
+    }
 }
