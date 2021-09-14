@@ -15,7 +15,7 @@ jc:
             auth:
                 path: "/v1.0/oauth/client_credential/accesstoken"
             secret: "Curso de Spring security"
-            expires-in: 3600 # seconds
+            expires-in: 60 # seconds
         excluded:
             path: "/v1.0/multi,/v1.0/otraexclusion" 
 
