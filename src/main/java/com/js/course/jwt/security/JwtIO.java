@@ -47,12 +47,16 @@ public class JwtIO {
 
     public boolean validateToken(String encodeJWT){
 
-        return false;
+        JWT jwt = jwt(encodeJWT);
+
+        return jwt.isExpired();
     }
 
     public String getPayload(String encodeJWT){
 
-        return null;
+        JWT jwt = jwt(encodeJWT);
+
+        return jwt.subject;
     }
 
     private JWT jwt(String encodeJWT){
